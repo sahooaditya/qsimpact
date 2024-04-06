@@ -18,7 +18,7 @@ const testimonials = [
 ];
 
 const TestimonialSection = () => {
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeIndex, setActiveIndex] = useState<any>(0);
 
   const nextSlide = () => {
     setActiveIndex((prevIndex) =>
