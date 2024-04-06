@@ -10,7 +10,9 @@ interface MenuOverlayProps {
   links: Link[];
 }
 
-const MenuOverlay: React.FC<MenuOverlayProps> = ({ links }) => {
+const MenuOverlay: React.FC<MenuOverlayProps> = ({
+  links,
+}: MenuOverlayProps) => {
   return (
     <ul className="flex flex-col py-4 items-center">
       {links.map((link, index) => (
