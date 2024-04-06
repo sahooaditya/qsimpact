@@ -23,7 +23,7 @@ const About = () => {
           </div>
           <div className="md:w-1/2">
             <img
-              src="/about.jpg"
+              src="/2.jpg"
               alt="About Us Image"
               className="rounded-lg shadow-lg"
             />

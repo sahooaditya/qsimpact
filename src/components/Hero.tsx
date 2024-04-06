@@ -40,24 +40,15 @@ const Hero = () => {
             }}
           >
             <div className="inline-block w-full max-h-[500px]">
-              <img
-                src="https://wallpapers.com/images/featured/tree-0wdwtdt9xzcm91b1.jpg"
-                alt=""
-              />
+              <img src="/1.jpg" alt="" />
             </div>
 
             <div className="inline-block w-full max-h-[500px]">
-              <img
-                src="https://wallpapers.com/images/featured/tree-0wdwtdt9xzcm91b1.jpg"
-                alt=""
-              />
+              <img src="4.jpg" alt="" />
             </div>
 
             <div className="inline-block w-full max-h-[500px]">
-              <img
-                src="https://wallpapers.com/images/featured/tree-0wdwtdt9xzcm91b1.jpg"
-                alt=""
-              />
+              <img src="5.jpg" alt="" />
             </div>
           </div>
 

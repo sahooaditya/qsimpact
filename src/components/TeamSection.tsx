@@ -1,8 +1,8 @@
 // components/TeamSection.js
 import Image from "next/image";
-import TeamMember1 from "../../public/images/about.jpg";
-import TeamMember2 from "../../public/images/about.jpg";
-import TeamMember3 from "../../public/images/about.jpg";
+import TeamMember1 from "../../public/images/team3.jpg";
+import TeamMember2 from "../../public/images/team3.jpg";
+import TeamMember3 from "../../public/images/team3.jpg";
 
 const TeamSection = () => {
   return (

@@ -9,6 +9,7 @@ import Contact from "@/components/contact";
 import TestimonialSection from "@/components/TestimonialSection";
 import PartnerSection from "@/components/PartnerSection";
 import TeamSection from "@/components/TeamSection";
+import Post from "@/components/Post";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,6 +24,7 @@ export default function Home() {
       {/* <TestimonialSection /> */}
       <PartnerSection />
       <TeamSection />
+      <Post />
       {/* <ImageSlider /> */}
       <Contact />
     </main>

@@ -34,7 +34,7 @@ const Navbar = () => {
           href={"/"}
           className="text-2xl md:text-2xl text-white font-semibold"
         >
-          LOGO
+          QsImpact
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
