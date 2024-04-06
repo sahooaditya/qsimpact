@@ -1,6 +1,13 @@
 import React, { useState } from "react";
 
-const testimonials = [
+interface Testimonial {
+  id: number;
+  name: string;
+  image: string;
+  content: string;
+}
+
+const testimonials: Testimonial[] = [
   {
     id: 1,
     name: "John Doe",
@@ -17,8 +24,8 @@ const testimonials = [
   // Add more testimonials as needed
 ];
 
-const TestimonialSection = () => {
-  const [activeIndex, setActiveIndex] = useState<any>(0);
+const TestimonialSection: React.FC = () => {
+  const [activeIndex, setActiveIndex] = useState<number>(0);
 
   const nextSlide = () => {
     setActiveIndex((prevIndex) =>
