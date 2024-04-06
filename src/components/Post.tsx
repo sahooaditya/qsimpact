@@ -86,7 +86,7 @@ const Post = () => {
                       </div>
                       <div className="mt-2 text-gray-900 text-sm xl:hidden">
                         Hiring a freelancer for your new project can be
-                        challenging if you've never done before. Learn some tips
+                        challenging if you ve never done before. Learn some tips
                         that will allow you to have a better experience working
                         with freelancers
                       </div>
