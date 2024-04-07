@@ -179,12 +179,11 @@ const Home = () => {
                 What business are you?
               </p>
               <h1 className="my-4 text-5xl font-bold leading-tight">
-                Share Headline curveyour impact with us today
+                Main Hero Message to sell yourself!
               </h1>
               <p className="leading-normal text-2xl mb-8">
-                Together, we will help you develop and build a better future.
-                ImpACT now! Grow your community volunteer experience on your
-                resume to boost your CV today.
+                Sub-hero message, not too long and not too short. Make it just
+                right!
               </p>
               <button className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                 Subscribe
