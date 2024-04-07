@@ -4,14 +4,16 @@ const Contact: React.FC = () => {
   return (
     <div className=" py-12">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-8">Contact</h2>
+        <h2 className="text-4xl font-bold text-center mb-8 text-[#FFAF00]">
+          Contact
+        </h2>
         <div className=" mt-10  grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16   mx-auto text-gray-900">
           <div className="flex flex-col ">
             <div>
               <h2 className="text-4xl lg:text-5xl font-bold leading-tight">
                 Lets talk about everything!
               </h2>
-              <div className=" mt-8">
+              <div className=" mt-8 text-[#FFAF00]">
                 Hate forms? Send us an <span className="underline">email</span>{" "}
                 instead.
               </div>
@@ -999,7 +1001,7 @@ const Contact: React.FC = () => {
               <textarea className="w-full h-32 bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
             </div>
             <div className="mt-8">
-              <button className="uppercase text-sm font-bold tracking-wide bg-indigo-500 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline">
+              <button className="uppercase text-sm font-bold tracking-wide bg-yellow-500 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline">
                 Send Message
               </button>
             </div>

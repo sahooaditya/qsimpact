@@ -5,7 +5,9 @@ const PartnerSection = () => {
     <div>
       <section className="section section-default mt-none mb-none">
         <div className="container">
-          <h2 className="text-4xl font-bold text-center mb-8">Our Partner</h2>
+          <h2 className="text-4xl font-bold text-center mb-8 text-[#FFAF00]">
+            Our Partner
+          </h2>
           <div className="max-w-screen-xl mx-auto">
             <img
               className="mx-auto"

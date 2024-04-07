@@ -10,10 +10,10 @@ const Post = () => {
         <div className="max-w-screen-xl mx-auto">
           <div className="xl:flex">
             <div>
-              <h3 className="leading-none font-black text-3xl">
+              <h3 className="leading-none font-black text-3xl text-[#FFAF00]">
                 Popular Posts
               </h3>
-              <div className="flex flex-col items-center lg:flex-row lg:items-stretch lg:justify-around">
+              <div className="flex flex-col items-center  md:space-x-5 md:flex-row lg:flex-row lg:items-stretch lg:justify-around">
                 <a
                   href="https://owaiskhan.me"
                   className="flex w-full max-w-sm mt-6 lg:mt-8 xl:mr-8"
@@ -41,7 +41,7 @@ const Post = () => {
                   href="https://timerse.com"
                   className="flex w-full max-w-sm mt-6 lg:mt-8 xl:mr-8"
                 >
-                  <div className="transition-all duration-300 cursor-pointer w-full shadow-lg hover:shadow-xl rounded-lg bg-gray-100 relative">
+                  <div className="transition-all  duration-300 cursor-pointer w-full shadow-lg hover:shadow-xl rounded-lg bg-gray-100 relative">
                     <div className="w-full h-48 bg-cover rounded-t-lg">
                       <img
                         src="https://images.unsplash.com/photo-1572044162444-ad60f128bdea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80"
@@ -54,8 +54,7 @@ const Post = () => {
                       </div>
                       <div className="mt-2 text-gray-900 text-sm">
                         Good Icons are hard to come by. This article guides you
-                        on how to create beautiful sketched icons using a
-                        drawing pad.
+                        on how to create beautiful sketched icons using a.
                       </div>
                     </div>
                   </div>
@@ -64,8 +63,10 @@ const Post = () => {
             </div>
 
             <div className="mt-12 xl:mt-0 xl:ml-8">
-              <h3 className="leading-none font-black text-3xl">Recent Posts</h3>
-              <div className="flex flex-col items-center lg:flex-row lg:items-stretch lg:justify-around xl:flex-col">
+              <h3 className="leading-none font-black text-3xl text-[#FFAF00]">
+                Recent Posts
+              </h3>
+              <div className="flex flex-col md:space-x-5 md:flex-row  items-center lg:flex-row lg:items-stretch lg:justify-around xl:flex-col">
                 <a
                   href="https://owaiskhan.me"
                   className="flex w-full max-w-sm mt-6 lg:mt-8"
@@ -87,8 +88,7 @@ const Post = () => {
                       <div className="mt-2 text-gray-900 text-sm xl:hidden">
                         Hiring a freelancer for your new project can be
                         challenging if you ve never done before. Learn some tips
-                        that will allow you to have a better experience working
-                        with freelancers
+                        that will allow you to .
                       </div>
                     </div>
                   </div>
