@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import Hero from "@/components/Hero";
-import Home from "@/components/Hero";
 import ImageSlider from "@/components/ImageSlider";
 import Footer from "@/components/Footer";
 import About from "@/components/About";
@@ -19,7 +18,6 @@ export default function Home() {
     <main
       className={`flex min-h-screen flex-col  justify-between items-center ${inter.className}`}
     >
-      {/* <Home /> */}
       <Hero />
     </main>
   );
