@@ -15,7 +15,7 @@ const Home = () => {
     {
       title: "MAKE A DIFFERENCE",
       description:
-        "The participant with the most significant composting capacity will be honored with the QS ImpACT Award Global Day of Action during the awards ceremony on January 18th, 2024.",
+        "The participant with the most significant composting capacity will be honored with the QS ImpACT Award Global Day of Action during the awards ceremony.",
       imageUrl: "/3.jpg",
     },
     {
@@ -724,7 +724,7 @@ const Home = () => {
         <section className="bg-gray-100 py-12">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-center mb-8 text-[#FFAF00]">
-              Our Mission
+              Our Feature
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {cards.map((card, index) => (
@@ -740,6 +740,9 @@ const Home = () => {
                   <div className="p-6">
                     <h3 className="text-xl font-bold mb-2">{card.title}</h3>
                     <p className="text-gray-800">{card.description}</p>
+                    <button className="mx-auto justify-center justify-between lg:mx-0 hover:underline gradient bg-[#FFAF00] text-white font-bold rounded-sm my-6 py-2 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                      Read More
+                    </button>
                   </div>
                 </div>
               ))}
