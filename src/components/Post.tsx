@@ -22,7 +22,7 @@ const Post = () => {
                     <div className="w-full h-48 bg-cover rounded-t-lg">
                       <img src="/post.jpg" alt="About Us Image" />
                     </div>
-                    <div className="p-6">
+                    <div className="p-6 mt-7">
                       <div className="text-lg font-bold mt-2 text-[#FFAF00]">
                         Climate Literacy and Action Training
                       </div>
@@ -45,7 +45,7 @@ const Post = () => {
                     <div className="w-full h-48 bg-cover rounded-t-lg">
                       <img src="/post1.jpg" alt="About Us Image" />
                     </div>
-                    <div className="p-6">
+                    <div className="p-6 mt-7">
                       <div className="text-lg font-bold mt-2 text-[#FFAF00]">
                         Live Impact Program
                       </div>
@@ -77,7 +77,7 @@ const Post = () => {
                     <div className="w-full h-48 bg-cover rounded-t-lg xl:w-32 xl:h-20 xl:rounded-lg xl:ml-2">
                       <img src="/post2.jpg" alt="About Us Image" />
                     </div>
-                    <div className="p-6 xl:p-0">
+                    <div className="p-6 mt-7 xl:p-0">
                       <div className="text-lg font-bold mt-2 text-[#FFAF00]">
                         How to work effectively with QsImpact
                       </div>
@@ -101,7 +101,7 @@ const Post = () => {
                     <div className="w-full h-48 bg-cover rounded-t-lg xl:w-32 xl:h-20 xl:rounded-lg xl:ml-2">
                       <img src="/post3.jpg" alt="About Us Image" />
                     </div>
-                    <div className="p-6 xl:p-0">
+                    <div className="p-6 mt-7 xl:p-0">
                       <div className="text-lg font-bold text-[#FFAF00]">
                         Participants get featured in a blog post.
                       </div>
