@@ -150,7 +150,7 @@ const Home = () => {
               <ul className="list-reset lg:flex justify-end flex-1 items-center">
                 <li className="mr-3">
                   <a
-                    className="inline-block py-2 px-4 text-black font-bold no-underline"
+                    className="inline-block py-2 px-4 text-black font-semibold no-underline"
                     href="#"
                   >
                     WHO WE ARE
@@ -181,11 +181,9 @@ const Home = () => {
                   </a>
                 </li>
               </ul>
-              <button
-                id="navAction"
-                className="mx-auto lg:mx-0 hover:underline bg-[#3b3327] text-black font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-              >
-                Action
+
+              <button className="mx-auto lg:mx-0 hover:underline border border-[#eb53a6]  text-black  rounded-sm mt-4 lg:mt-0 py-2 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                DONATE
               </button>
             </div>
           </div>
