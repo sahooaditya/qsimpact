@@ -115,7 +115,7 @@ const Home = () => {
       <body
         className="leading-normal tracking-normal text-white gradient"
         style={{
-          background: "linear-gradient(90deg, #d53369 0%, #daae51 100%)",
+          background: "linear-gradient(90deg, #FFAF00 0%, #127C71 100%)",
         }}
       >
         <nav id="header" className="fixed w-full z-30 top-0 text-white">
