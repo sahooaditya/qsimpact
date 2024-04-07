@@ -26,12 +26,15 @@ const Post = () => {
                       />
                     </div>
                     <div className="p-6">
-                      <div className="text-lg font-bold mt-2">
-                        Tips for creating an amazing design system
+                      <div className="text-lg font-bold mt-2 text-[#FFAF00]">
+                        Climate Literacy and Action Training
                       </div>
                       <div className="mt-2 text-gray-900 text-sm">
-                        Learn how to create a new design system that is
-                        beautiful and efficient for creating your UI components.
+                        This Climate Literacy Training for Educators,
+                        Communities, Organizations, and Students CLT-ECOS equips
+                        you with the information and skills needed to make
+                        high-impact changes in your social and professional
+                        life.
                       </div>
                     </div>
                   </div>
@@ -49,12 +52,14 @@ const Post = () => {
                       />
                     </div>
                     <div className="p-6">
-                      <div className="text-lg font-bold mt-2">
-                        Using a drawing tablet to create beautiful icons
+                      <div className="text-lg font-bold mt-2 text-[#FFAF00]">
+                        Live Impact Program
                       </div>
                       <div className="mt-2 text-gray-900 text-sm">
-                        Good Icons are hard to come by. This article guides you
-                        on how to create beautiful sketched icons using a.
+                        A 10 week virtual global collaboration program where
+                        young people work with our councils to learn, create and
+                        implement solutions through a hands-on project in DRC,
+                        Niger, Pakistan or Uganda.
                       </div>
                     </div>
                   </div>
@@ -82,7 +87,7 @@ const Post = () => {
                       />
                     </div>
                     <div className="p-6 xl:p-0">
-                      <div className="text-lg font-bold">
+                      <div className="text-lg font-bold mt-2 text-[#FFAF00]">
                         How to work effectively with QsImpact
                       </div>
                       <div className="mt-2 text-gray-900 text-sm xl:hidden">
@@ -109,8 +114,8 @@ const Post = () => {
                       />
                     </div>
                     <div className="p-6 xl:p-0">
-                      <div className="text-lg font-bold">
-                        How to create smooth React Native animations
+                      <div className="text-lg font-bold text-[#FFAF00]">
+                        Participants get featured in a blog post.
                       </div>
                       <div className="mt-2 text-gray-900 text-sm xl:hidden">
                         Animations play a vital role in user experience. This
