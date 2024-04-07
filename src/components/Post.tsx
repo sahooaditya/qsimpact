@@ -20,10 +20,7 @@ const Post = () => {
                 >
                   <div className="transition-all duration-300 cursor-pointer w-full shadow-lg hover:shadow-xl rounded-lg bg-gray-100 relative">
                     <div className="w-full h-48 bg-cover rounded-t-lg">
-                      <img
-                        src="https://images.unsplash.com/3/doctype-hi-res.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80"
-                        alt="About Us Image"
-                      />
+                      <img src="/post.jpg" alt="About Us Image" />
                     </div>
                     <div className="p-6">
                       <div className="text-lg font-bold mt-2 text-[#FFAF00]">
@@ -46,10 +43,7 @@ const Post = () => {
                 >
                   <div className="transition-all  duration-300 cursor-pointer w-full shadow-lg hover:shadow-xl rounded-lg bg-gray-100 relative">
                     <div className="w-full h-48 bg-cover rounded-t-lg">
-                      <img
-                        src="https://images.unsplash.com/photo-1572044162444-ad60f128bdea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80"
-                        alt="About Us Image"
-                      />
+                      <img src="/post1.jpg" alt="About Us Image" />
                     </div>
                     <div className="p-6">
                       <div className="text-lg font-bold mt-2 text-[#FFAF00]">
@@ -81,10 +75,7 @@ const Post = () => {
                     bg-gray-100 relative xl:flex xl:flex-row-reverse xl:items-center xl:px-6 xl:py-8"
                   >
                     <div className="w-full h-48 bg-cover rounded-t-lg xl:w-32 xl:h-20 xl:rounded-lg xl:ml-2">
-                      <img
-                        src="https://images.unsplash.com/photo-1452830978618-d6feae7d0ffa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=512&q=80"
-                        alt="About Us Image"
-                      />
+                      <img src="/post2.jpg" alt="About Us Image" />
                     </div>
                     <div className="p-6 xl:p-0">
                       <div className="text-lg font-bold mt-2 text-[#FFAF00]">
@@ -108,10 +99,7 @@ const Post = () => {
                     bg-gray-100 relative xl:flex xl:flex-row-reverse xl:items-center xl:px-6 xl:py-8"
                   >
                     <div className="w-full h-48 bg-cover rounded-t-lg xl:w-32 xl:h-20 xl:rounded-lg xl:ml-2">
-                      <img
-                        src="https://images.unsplash.com/photo-1581287053822-fd7bf4f4bfec?ixlib=rb-1.2.1&auto=format&fit=crop&w=512&q=80"
-                        alt="About Us Image"
-                      />
+                      <img src="/post3.jpg" alt="About Us Image" />
                     </div>
                     <div className="p-6 xl:p-0">
                       <div className="text-lg font-bold text-[#FFAF00]">
