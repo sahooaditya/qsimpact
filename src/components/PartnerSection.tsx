@@ -3,7 +3,7 @@ import React from "react";
 const PartnerSection = () => {
   return (
     <div>
-      <section className="section section-default mt-none mb-none">
+      <section className=" bg-gray-100 section section-default mt-none mb-none">
         <div className="container">
           <h2 className="text-4xl font-bold text-center mb-8 text-[#FFAF00]">
             Our Partner
