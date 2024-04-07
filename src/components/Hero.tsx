@@ -1088,9 +1088,14 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <a href="#" className="text-[#F7A70A] justify-self-center">
-            © QS ImpACT 2023
-          </a>
+          <div className="flex justify-center">
+            {" "}
+            {/* Center the content horizontally */}
+            <a href="#" className="text-[#F7A70A]">
+              {" "}
+              {/* Remove justify-self-center class */}© QS ImpACT 2024
+            </a>
+          </div>
         </footer>
       </body>
     </div>
