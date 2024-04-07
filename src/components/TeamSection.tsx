@@ -7,7 +7,7 @@ import TeamMember3 from "../../public/images/team3.jpg";
 const TeamSection = () => {
   return (
     <section className=" bg-gray-100 py-12">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-10">
         <h2 className="text-4xl font-bold text-center mb-8 text-[#FFAF00]">
           Our Team
         </h2>
