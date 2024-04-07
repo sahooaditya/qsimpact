@@ -5,6 +5,26 @@ import TeamMember2 from "../../public/images/team8.jpg";
 import TeamMember3 from "../../public/images/team9.jpg";
 
 const Home = () => {
+  const cards = [
+    {
+      title: "GLOBAL DAY OF ACTION",
+      description:
+        "The Global Day of Action (GDA) happening on 14th December 2023 aims to mobilize youth worldwide behind a common cause, composting to regenerate our planet.",
+      imageUrl: "/poor.jpg",
+    },
+    {
+      title: "MAKE A DIFFERENCE",
+      description:
+        "The participant with the most significant composting capacity will be honored with the QS ImpACT Award Global Day of Action during the awards ceremony on January 18th, 2024.",
+      imageUrl: "/3.jpg",
+    },
+    {
+      title: "BE A COMMUNITY LEADER",
+      description:
+        "1.3 billion tons of food is wasted annually To scale if food waste were a country, it would be the third-largest producer of carbon dioxide globally (Source: WFP).",
+      imageUrl: "/6.jpg",
+    },
+  ];
   useEffect(() => {
     const scrollHandler = () => {
       let scrollpos = window.scrollY;
@@ -234,29 +254,23 @@ const Home = () => {
         </div>
         <section className="bg-white border-b py-8">
           <div className="container max-w-5xl mx-auto m-8">
-            <h2 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-              Title
-            </h2>
+            {/* <h2 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
+              Our Mission
+            </h2> */}
             <div className="w-full mb-4">
               <div className="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
             </div>
             <div className="flex flex-wrap">
               <div className="w-5/6 sm:w-1/2 p-6">
                 <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">
-                  Lorem ipsum dolor sit amet
+                  Our Mission
                 </h3>
                 <p className="text-gray-600 mb-8">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+                  We connect universities, organizations and communities
+                  worldwide to develop young talent to lead through impACT for a
+                  regenerative future.
                   <br />
                   <br />
-                  Images from:
-                  <a
-                    className="text-pink-500 underline"
-                    href="https://undraw.co/"
-                  >
-                    undraw.co
-                  </a>
                 </p>
               </div>
               <div className="w-full sm:w-1/2 p-6">
@@ -694,111 +708,41 @@ const Home = () => {
               <div className="w-full sm:w-1/2 p-6 mt-6">
                 <div className="align-middle">
                   <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">
-                    Lorem ipsum dolor sit amet
+                    Our Vision
                   </h3>
                   <p className="text-gray-600 mb-8">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+                    We are a global community of young leaders who grow and earn
+                    recognition for their positive impACT on society.
                     <br />
                     <br />
-                    Images from:
-                    <a
-                      className="text-pink-500 underline"
-                      href="https://undraw.co/"
-                    >
-                      undraw.co
-                    </a>
                   </p>
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <section className="bg-white border-b py-8">
-          <div className="container mx-auto flex flex-wrap pt-4 pb-12">
-            <h2 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-              Title
+        <section className="bg-gray-100 py-12">
+          <div className="container mx-auto px-4">
+            <h2 className="text-4xl font-bold text-center mb-8 text-[#FFAF00]">
+              Our Mission
             </h2>
-            <div className="w-full mb-4">
-              <div className="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
-            </div>
-            <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-              <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-                <a
-                  href="#"
-                  className="flex flex-wrap no-underline hover:no-underline"
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              {cards.map((card, index) => (
+                <div
+                  key={index}
+                  className="bg-white rounded-lg shadow-lg overflow-hidden"
                 >
-                  <p className="w-full text-gray-600 text-xs md:text-sm px-6">
-                    xGETTING STARTED
-                  </p>
-                  <div className="w-full font-bold text-xl text-gray-800 px-6">
-                    Lorem ipsum dolor sit amet.
+                  <img
+                    src={card.imageUrl}
+                    alt={card.title}
+                    className="w-full h-48 object-cover"
+                  />
+                  <div className="p-6">
+                    <h3 className="text-xl font-bold mb-2">{card.title}</h3>
+                    <p className="text-gray-800">{card.description}</p>
                   </div>
-                  <p className="text-gray-800 text-base px-6 mb-5">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
-                  </p>
-                </a>
-              </div>
-              <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-                <div className="flex items-center justify-start">
-                  <button className="mx-auto lg:mx-0 hover:underline gradient bg-[#F7A70A] text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                    Read More
-                  </button>
                 </div>
-              </div>
-            </div>
-            <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-              <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-                <a
-                  href="#"
-                  className="flex flex-wrap no-underline hover:no-underline"
-                >
-                  <p className="w-full text-gray-600 text-xs md:text-sm px-6">
-                    xGETTING STARTED
-                  </p>
-                  <div className="w-full font-bold text-xl text-gray-800 px-6">
-                    Lorem ipsum dolor sit amet.
-                  </div>
-                  <p className="text-gray-800 text-base px-6 mb-5">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
-                  </p>
-                </a>
-              </div>
-              <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-                <div className="flex items-center justify-center">
-                  <button className="mx-auto lg:mx-0 bg-[#F7A70A] hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                    Read More
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-              <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-                <a
-                  href="#"
-                  className="flex flex-wrap no-underline hover:no-underline"
-                >
-                  <p className="w-full text-gray-600 text-xs md:text-sm px-6">
-                    xGETTING STARTED
-                  </p>
-                  <div className="w-full font-bold text-xl text-gray-800 px-6">
-                    Lorem ipsum dolor sit amet.
-                  </div>
-                  <p className="text-gray-800 text-base px-6 mb-5">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
-                  </p>
-                </a>
-              </div>
-              <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-                <div className="flex items-center justify-end">
-                  <button className="mx-auto bg-[#F7A70A] lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                    Read More
-                  </button>
-                </div>
-              </div>
+              ))}
             </div>
           </div>
         </section>
@@ -956,7 +900,7 @@ const Home = () => {
                       <div className="w-full h-48 bg-cover rounded-t-lg xl:w-32 xl:h-20 xl:rounded-lg xl:ml-2">
                         <img src="/post3.jpg" alt="About Us Image" />
                       </div>
-                      <div className="p-6 mt-7 xl:p-0">
+                      <div className="p-6 mt-9 xl:p-0">
                         <div className="text-lg font-bold text-[#FFAF00]">
                           Participants get featured in a blog post.
                         </div>
