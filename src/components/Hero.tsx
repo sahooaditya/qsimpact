@@ -182,7 +182,7 @@ const Home = () => {
                 </li>
               </ul>
 
-              <button className="mx-auto lg:mx-0 hover:underline border border-[#eb53a6]  text-black  rounded-sm mt-4 lg:mt-0 py-2 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+              <button className="mx-auto lg:mx-0 hover:underline border bg-[#FFAF00] border-[#FFAF00]  text-black  rounded-sm mt-4 lg:mt-0 py-2 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                 DONATE
               </button>
             </div>
